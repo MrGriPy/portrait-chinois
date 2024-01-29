@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/logo.png" />
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="data.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<title>Mon Portrait Chinois</title>
+</head>
+
+<body>
+	<div class="mentions">
+	<div id="mention" class="popup popupinvisible">
+		<h2>MENTIONS LEGALES</h2>
+		<h3>Législation relative aux données à caractère personnel et à la propriété intellectuelle :</h3>
+<ul>
+    <li>Réalisation : Thomas Vidal</li>
+    <li>Contact : thomas.vidal@edu.univ-eiffel.fr</li>
+	<br>
+    <li>Clément Bardot : <a href="https://commons.wikimedia.org/wiki/File:Loup_gris_(Canis_lupus_).jpg">CC BY-SA 4.0 DEED</a></li>
+    <li>Rick Astley : <a href="https://youtu.be/dQw4w9WgXcQ?si=gdLiO5LTxViH9W3X">Never Gonna Give You Up</a></li>
+    <li>Warner Bros : <a href="https://www.warnerbros.com/movies/ready-player-one#gallery">© Tous droits réservés.</a></li>
+    <li>Nintendo : <a href="https://commons.wikimedia.org/wiki/File:Zelda_2017.svg">© Tous droits réservés.</a></li>
+	<br>
+    <li>Hébergeur : <a href="https://iut.univ-gustave-eiffel.fr/presentation/services-numeriques">Istitut Universitaire de Technologie de Marne-la-Vallée.</a></li>
+</ul>
+
+	</div>
+	</div>
+	<div class="gif">
+		<img class="mario" src="img/mario.gif" alt="">
+	</div>
+	<canvas id="fond"></canvas>
+	<section>
+	<header>
+		<h1>Mon<br>portrait<br>chinois</h1>
+		<h3>par Thomas Vidal</h3>
+		<a href="#animal"><h2 id="play">Jouer !</h2></a>
+	</header>
+</section>
+	<div id="analogies"></div>
+	
+	<section id="formulaire">
+		<h1 class="jouer">A TOI DE JOUER !<p id="message"></p></h1><br>
+
+		<form id="myForm" method="get">
+			<label for="analogie"> Si j'étais</label>
+			<br />
+			<input
+			  type="text"
+			  placeholder="Analogie"
+			  name="analogie"
+			  id="analogie"
+			>
+			<br />
+			<label for="valeur"> je serais...</label>
+			<br />
+			<input
+			  type="text"
+			  placeholder="Valeur"
+			  name="valeur"
+			  id="valeur"
+			>
+			<br />
+			<label for="desc"> Description </label>
+			<br />
+			<textarea
+			  name="desc"
+			  id="desc"
+			  rows="4"
+			></textarea>
+			<br />
+			<label for="URL"> Illustration </label>
+			<br />
+			<input
+			  type="text"
+			  placeholder="URL de l'image"
+			  name="URL"
+			  id="URL"
+			>
+			<br />
+			<label for="email">E-mail</label>
+			<br />
+			<input
+			  type="email"
+			  name="email"
+			  id="email"
+			>
+			<input id="valider" type="submit" name="submit" value="valider">
+		  </form>
+		  
+	</section>
+		<div id="customAnalogie"></div>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</html>
